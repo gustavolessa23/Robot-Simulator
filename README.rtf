@@ -1,0 +1,46 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf760
+{\fonttbl\f0\fnil\fcharset0 DejaVuSans;\f1\fnil\fcharset0 Monaco;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue10;\red242\green242\blue242;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c3922;\csgray\c95825;\cssrgb\c0\c0\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl360\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \expnd0\expndtw0\kerning0
+Name: Gustavo Lessa\uc0\u8232 Student number: 2016104\
+Robot Simulator\
+ \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+TestRobots is the file containing the main method and the following:\
+* settings() = defines size of screen;\
+* createCharlie() = lets use input Charlie' coordinates or generate them randomly\
+ * mathCharlie() = Calls methods from Maths class to generate and display Math's questions and Charlie's properties\
+ * setup() = calls createCharlie(), create the other robots, calls the mathCharlie().\
+ * draw() = executes an infinite loop, where the methods from Robot class are called and where everything is drawn to the screen\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Robot is the file containing all characteristics and methods of a robot. Includes a constructor that takes name, colour, coordinates and speed as parameters.\
+The most important methods are the ones that define the movements needed for each robot: patrol(), randomWalk() and control(). Every method is commented inside the file.\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Maths is the file containing a simple constructor and several methods, aiming to calculate and print the information needed for math questions.\
+Every method is commented inside the file.\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\uc0\u8232 \u8232 To compile my code (instructions for MacOS):\
+- Install JDK.\
+- Unpack all files in the same directory.\
+- Copy core.jar from Processing folder to the same directory above.\
+- Open Terminal\
+- Navigate to the directory\
+- Type: 
+\f1\fs20 \cf3 \cb0 \CocoaLigature0 javac -cp .:core.jar TestRobots.java Robot.java Maths.java
+\f0\fs29\fsmilli14667 \cf2 \cb1 \CocoaLigature1 \
+\pard\pardeftab720\sl360\sa240\partightenfactor0
+\cf2 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\cf2 \
+To run my code:\
+- Follow the compilation instructions\
+- Type: 
+\f1\fs20 \cf3 \cb0 \kerning1\expnd0\expndtw0 \CocoaLigature0 java -cp .:core.jar TestRobots
+\f0\fs29\fsmilli14667 \cf2 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \uc0\u8232 \cf2 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97
+\f2\fs24 \cf4 \
+}
