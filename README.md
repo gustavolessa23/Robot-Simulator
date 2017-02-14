@@ -1,8 +1,13 @@
 # Robot-Simulator
+
 CCT (College of Computing Technology - Dublin - Ireland)
+
 Name: Gustavo Lessa
+
 Student number: 2016104
+
 1st year
+
 Programming and Maths project
 
  ————————————————————————————————————
