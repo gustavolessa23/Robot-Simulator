@@ -6,6 +6,7 @@ Student number: 2016104
 Programming and Maths project
 
  ————————————————————————————————————
+ 
 TestRobots is the file containing the main method and the following:
 * settings() = defines size of screen;
 * createCharlie() = lets use input Charlie' coordinates or generate them randomly
